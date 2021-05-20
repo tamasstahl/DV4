@@ -19,7 +19,7 @@ Medals over time: A similar time series plot as the one at the tab called Countr
 
 Parameter: Under this tab you can give parameters. There is a slider to change the time period and years. There is also a numeric input which is set to showcase the given number of countries only (from 2 to 10). Finally, there are two checkboxes to filter down to gender or type of Olympic game (summer or winter).
 
-Additionally, on all the tabs we can see a data table which showcases 5 athletes with all their information. You can search it by word, filter it to 5-10-15 findings per page. Not to mention that the filters are also working for this.
+Additionally, on all the tabs we can see a data table which showcases 5 athletes with all their information. You can search it by word, filter it to 5/10/15 findings per page. Not to mention that the filters are also working for this.
 
-**Please find my working dashboard daployed to Shinyapps.io.
+**Please find my working dashboard deployed to Shinyapps.io.
 https://tamasstahl.shinyapps.io/semester_project_TS**
