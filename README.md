@@ -13,11 +13,11 @@ Data includes athlete name, gender, age, height, weight, team, NOC (country), ga
 **There is no global.R as all the calculations were done in the server.R file.**
 
 Instructions for the tabs:
-Countries: Time series plot created with plotly. It shows which nations participated with the most athletes in that particular year, Olympic game.
-Medals: This is an aggregate calculator for the medals won by each nation, divided by medal types.
-Medals over time: A similar time series plot as the one at the tab called Countries. It shows the distribution of medals throughout the years by the countries.
+1. Countries: Time series plot created with plotly. It shows which nations participated with the most athletes in that particular year, Olympic game.
+2. Medals: This is an aggregate calculator for the medals won by each nation, divided by medal types.
+3. Medals over time: A similar time series plot as the one at the tab called Countries. It shows the distribution of medals throughout the years by the countries.
 
-Parameter: Under this tab you can give parameters. There is a slider to change the time period and years. There is also a numeric input which is set to showcase the given number of countries only (from 2 to 10). Finally, there are two checkboxes to filter down to gender or type of Olympic game (summer or winter).
+4. Parameter: Under this tab you can give parameters. There is a slider to change the time period and years. There is also a numeric input which is set to showcase the given number of countries only (from 2 to 10). Finally, there are two checkboxes to filter down to gender or type of Olympic game (summer or winter).
 
 Additionally, on all the tabs we can see a data table which showcases 5 athletes with all their information. You can search it by word, filter it to 5/10/15 findings per page. Not to mention that the filters are also working for this.
 
