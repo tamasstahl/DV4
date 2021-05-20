@@ -83,7 +83,7 @@ server <- function(input, output){
             subtitle =  "Gold",
             icon = icon("medal", lib = "font-awesome"),
             color = "yellow",
-            width = 4  # Width in Bootstrap mode: needs a column()!
+            width = 4  
         )
     })
     
@@ -95,7 +95,7 @@ server <- function(input, output){
             subtitle =  "Silver",
             icon = icon("medal", lib = "font-awesome"),
             color = "navy",
-            width = 4  # Width in Bootstrap mode: needs a column()!
+            width = 4  
         )
     })
     
@@ -106,7 +106,7 @@ server <- function(input, output){
             subtitle =  "Bronze",
             icon = icon("medal", lib = "font-awesome"),
             color = "red",
-            width = 4  # Width in Bootstrap mode: needs a column()!
+            width = 4  
         )
     })
     

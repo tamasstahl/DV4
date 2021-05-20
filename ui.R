@@ -17,16 +17,16 @@ ui <- dashboardPage(
             menuItem("Medals", tabName = "medal", icon = icon("medal", lib = "font-awesome")),
             menuItem( "Medals over time", tabName = "medal_time", icon = icon("calendar", lib = "font-awesome")),
             menuItem("Parameters", tabName = "inputvalues", icon= icon("keyboard", lib = "font-awesome"),
-                     sliderInput("years", h4("Years"),                        # Widget 1: year selection
+                     sliderInput("years", h4("Year slider"),                        
                                  min = 1896, max = 2014, 
                                  value = c(1896, 2014), step = 4, sep = ""),
-                     numericInput("max_country", h4("Max number countries"),  # Widget 4: nb of countries displayed
+                     numericInput("max_country", h4("Number of countries displayed"),  
                                   min = 2, max = 10, step = 1, value = 8),
-                     checkboxGroupInput("season", h4("Season"),               # Widget 2: season selection
+                     checkboxGroupInput("season", h4("Season"),               
                                         choices = list("Summer" = "Summer", 
                                                        "Winter" = "Winter"),
                                         selected = c("Summer", "Winter")),
-                     checkboxGroupInput("gender", h4("Gender"),               # Widget 3: gender selection
+                     checkboxGroupInput("gender", h4("Gender"),               
                                         choices = list("Women" = "Women", 
                                                        "Men" = "Men"),
                                         selected = c("Women", "Men"))
@@ -59,7 +59,4 @@ ui <- dashboardPage(
         
     )
 ))
-        
-        
-        
         
